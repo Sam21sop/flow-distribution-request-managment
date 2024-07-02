@@ -1,0 +1,41 @@
+{
+  "name": "flow-distribution-request-managment",
+  "version": "1.0.0",
+  "description": "Manages request from the multiple user using Queue Structure and the flow distribution algorithm system using Node.js and Express.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sam21sop/flow-distribution-request-managment.git"
+  },
+  "keywords": [
+    "Request",
+    "managment",
+    "flow",
+    "distribution",
+    "algorithm",
+    "queue",
+    "node",
+    "express"
+  ],
+  "author": "sopan bhere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sam21sop/flow-distribution-request-managment/issues"
+  },
+  "homepage": "https://github.com/Sam21sop/flow-distribution-request-managment#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
